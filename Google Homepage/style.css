@@ -1,8 +1,50 @@
 /*comment*/
 
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background: #fff;
+    margin: 0;
+}
+
 a
 {
-    color:black;
+    color:#555;
     text-decoration: none;
-    margin: 3px;
+    margin: 8px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 18px;
+}
+
+ul
+{
+    display: inline-block;
+    padding: 0px;
+}
+
+footer
+{
+    padding: 0px 25px;
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 97%;
+    bottom: 0;
+    font-size: 14px;
+}
+
+a.sign
+{
+    background-color: rgb(67, 135, 252);
+    color: #fff;
+    padding: 8px 13px;
+    font-weight: bold;
+    border-radius: 2px;
 }
