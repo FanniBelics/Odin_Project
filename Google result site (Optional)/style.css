@@ -21,6 +21,20 @@ header span
     margin: 10px;
 }
 
+.rights
+{
+    float: right;
+}
+
+.rights span:hover
+{
+    background-color: #f1f3f4;
+    margin: 2px;
+    border:solid #f1f3f4 8px;
+    border-radius: 40px;
+    
+}
+
 .search
 {
     display: inline-block;
@@ -105,6 +119,11 @@ section a
     color: #1a0dab;
 }
 
+section a:hover
+{
+    text-decoration: underline;
+}
+
 section p
 {
     display: inline-block;
@@ -135,4 +154,78 @@ section table
 section table tr td
 {
     padding: 5px 60px 5px 5px;
+}
+
+h3
+{
+    font-size: 22px;
+    font-weight: 100;
+    margin: 30px 0px 15px 0px;
+}
+
+.suggestions
+{
+    width: 700px;
+}
+
+.suggestions a
+{
+    display: inline-block;
+    background-color: #f1f3f4;
+    font-size: 16px;
+    border-radius: 40px;
+    width: 320px;
+    height: 48px;
+    margin: 5px 10px;
+    margin-left: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.suggestions a span
+{
+    margin: 15px 20px;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+.suggestions a:hover
+{
+    text-decoration: underline;
+}
+
+footer
+{   
+    margin-top: 20px;
+    padding: 5px 180px;
+    background-color: #f2f2f2;
+    color: #70767a;    
+}
+
+footer span
+{
+    border-right: solid 1px #70767a;
+    padding: 0px 10px 0px 0px;
+}
+
+ul
+{
+    display: inline-block;
+    padding: 0px;
+}
+
+li
+{
+    display: inline-block;
+    margin: 0px 0px 0px 5px;
+}
+
+li:hover
+{
+    color:#555;
+}
+
+div li
+{
+    margin: 10px 10px 10x 0px;
 }
