@@ -82,3 +82,57 @@ div a
 {
     margin-right: 15px;
 }
+
+main
+{
+    padding: 0px 180px;
+}
+
+p
+{
+    margin-bottom: 10px;
+}
+
+section
+{
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+section a
+{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+section p
+{
+    display: inline-block;
+    margin: 3px 5px 5px 0px;
+    line-height: 1.58;
+    font-size: 14px;
+    color: #444;
+}
+
+section p b
+{
+    font-weight: 800;
+}
+
+h2
+{
+    margin: 0px;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section table
+{
+    margin: 10px;
+    border-collapse: separate;
+}
+section table tr td
+{
+    padding: 5px 60px 5px 5px;
+}
