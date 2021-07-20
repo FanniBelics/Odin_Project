@@ -48,6 +48,12 @@ header span
     vertical-align: top;
     margin: 17px 25px;
 }
+
+.search:hover
+{
+    box-shadow: 1px 1px 8px #666;
+}
+
 .search span
 {
     float: right;
